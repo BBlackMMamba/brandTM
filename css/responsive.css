@@ -132,8 +132,189 @@
 
     .features {
         position: relative;
-        top: 265px;
+        top: 65px;
+        left:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F3F3F3;
+    }
 
+    .feature-box{
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:24px;
+
+    }
+    .feature-ttl{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .feature-profile-photo{
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 16px 10px 0;
+    }
+    .feature-box-title{
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        color: black;
+        text-align: center;
+
+    }
+    .feature-txt{
+        width: 327px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: black;
+        text-align: center;
+    }
+
+    /* Headline Section */
+
+    .headline{
+        width:100%;
+        top: 65px;
+        left: 0;
+        height: auto;
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color:white;
+        padding: 24px 0;
+    }
+
+    .headline > img {
+        height: auto;
+        width: 92%;
+        max-width: 696px;
+        border-radius: 12px;
+        margin-bottom: 14px;
+    }
+
+    .headline-txt-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .headline-title{
+        width: 327px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: -0.1px;
+        text-align: center;
+
+    }
+
+    .headline-txt{
+
+    }
+
+    .headline-paragraph{
+        width: 327px;
+        height:72px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        margin: 14px 0;
+    }
+
+    .headline-list{
+        width: 327px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        list-style-type: disc;
+    }
+
+    .headline-list-item{
+
+    }
+
+    /* testimonial Section */
+    .testimonials {
+        width:100%;
+        top:65px;
+        left: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+    }
+    .testimonial-box{
+        display: none;
+    }
+    .testimonial-box:nth-child(1) {
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        padding: 24px;
+    }
+    .testimonial-txt {
+        width: 279px;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+     }
+    .testimonial-profile-p {
+        height: 64px;
+        width:64px;
+        margin: 56px 0 16px 0;
+    }
+    .testimonial-name {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+    }
+    .description-txt {
+        width: 127.25px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin-right: 103px;
+    }
+    .fb-icon {
+        height: 16px;
+        width:16px;
+        margin-right: 16px;
+    }
+    .twitter-icon {
+        height: 16px;
+        width:13px;
     }
 }
 
@@ -150,14 +331,14 @@
         top: 0;
         left: 0;
         max-width: 1440px;
-        min-width: 100%;
+        width: 100%;
         height: 65px;
-        padding: 0 32px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         background-color: white;
+        z-index: 1;
     }
 
     .logo {
@@ -278,14 +459,201 @@
         margin: 24px 0 21px 0;
     }
 
-    /* Features section */
+     /* Features section */
 
     .features {
         position: relative;
-        top: 265px;
+        width:100%;
+        top: 65px;
+        left:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F3F3F3;
+    }
+
+    .feature-box{
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 24px;
+    }
+    .feature-ttl{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .feature-profile-photo{
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 16px 10px 0;
+    }
+    .feature-box-title{
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        color: black;
+        text-align: center;
 
     }
+    .feature-txt{
+        width: 744px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: black;
+        text-align: center;
+    }
+
+    /* Headline Section */
+
+      .headline{
+        width:100%;
+        top: 65px;
+        left: 0;
+        height: auto;
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color:white;
+        padding: 24px 0;
+    }
+
+    .headline > img {
+        height: 550px;
+        width: 92%;
+        max-width: 696px;
+        border-radius: 12px;
+        margin-bottom: 29px;
+    }
+
+    .headline-txt-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .headline-title{
+        width: 696px;
+        font-family: 'Inter';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: -0.1px;
+        text-align: center;
+
+    }
+
+    .headline-txt{
+
+    }
+
+    .headline-paragraph{
+        width: 696px;
+        height:72px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        margin: 29px 0;
+    }
+
+    .headline-list{
+        width: 696px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        list-style-type: disc;
+    }
+
+    .headline-list-item{
+
+    }
+
+    /* testimonial Section */
+    
+    .testimonials {
+        width:100%;
+        top:65px;
+        left: 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 24px;
+    }
+   
+    .testimonial-box {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        padding: 24px;
+    }
+
+    .testimonial-box:nth-child(3){
+        display: none;
+    }
+
+    .testimonial-txt {
+        width: 292px;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+     }
+    .testimonial-profile-p {
+        height: 64px;
+        width:64px;
+        margin: 56px 0 16px 0;
+    }
+    .testimonial-name {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+    }
+    .description-txt {
+        width: 127.25px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin-right: 103px;
+    }
+    .fb-icon {
+        height: 16px;
+        width:16px;
+        margin-right: 16px;
+    }
+    .twitter-icon {
+        height: 16px;
+        width:13px;
+    }
 }
+
 
 
 /* **************************************** */
@@ -309,6 +677,7 @@
         justify-content: space-between;
         align-items: center;
         background-color: white;
+        z-index: 1;
     }
 
     .logo {
@@ -435,9 +804,202 @@
 
     /* Features section */
 
-    .features{
+    .features {
         position: relative;
-        top: 265px;
-        
+        width:100%;
+        height: 254px;
+        top: 65px;
+        left:0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3F3F3;
+    }
+
+    .feature-box{
+        height: 170px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-box:nth-child(2){
+        margin: 0 4.9%;
+    }
+
+    .feature-ttl{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .feature-profile-photo{
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 16px 10px 0;
+    }
+    .feature-box-title{
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        color: black;
+        text-align: center;
+
+    }
+    .feature-txt{
+        width: 280px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: black;
+        text-align: left;
+    }
+
+        .headline{
+        width:100%;
+        top: 65px;
+        left: 0;
+        height: auto;
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color:white;
+        padding: 24px 0;
+    }
+
+    .headline > img {
+        height: 550px;
+        width: 95%;
+        max-width: 960px;
+        border-radius: 12px;
+        margin-bottom: 29px;
+    }
+
+    .headline-txt-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .headline-title{
+        width: 415.5px;
+        font-family: 'Inter';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: -0.1px;
+        text-align: left;
+        margin-right: 129px;
+
+    }
+
+    .headline-txt{
+       
+
+    }
+
+    .headline-paragraph{
+        width: 415.5px;
+        height:72px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: left;
+    }
+
+    /* Headline Section */
+
+    .headline-list{
+        width: 415.5px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: left;
+        list-style-type: disc;
+        margin-left: 17px;
+    }
+
+    .headline-list-item{
+
+    }
+
+        /* testimonial Section */
+    
+    .testimonials {
+        width:100%;
+        top:65px;
+        left: 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        column-gap: 9px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 24px;
+    }
+   
+    .testimonial-box {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        padding: 24px;
+    }
+
+    .testimonial-txt {
+        width: 292px;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+     }
+    .testimonial-profile-p {
+        height: 64px;
+        width:64px;
+        margin: 56px 0 16px 0;
+    }
+    .testimonial-name {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+    }
+    
+    .description-txt {
+        width: 127.25px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin-right: 170px;
+    }
+    .fb-icon {
+        height: 16px;
+        width:16px;
+        margin-right: 16px;
+    }
+    .twitter-icon {
+        height: 16px;
+        width:13px;
     }
 }
